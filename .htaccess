@@ -1,0 +1,15 @@
+ErrorDocument 404 https://viraladsmedia.in/machines/404.php
+
+
+
+RewriteEngine On
+RewriteRule ^admin/?$ /admin/login.php [R=301,L]
+
+
+
+
+
+
+
+
+

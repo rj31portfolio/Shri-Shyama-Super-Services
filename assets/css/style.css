@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900');
+
+*{margin:0; padding:0;}
+body{font-family: 'Open Sans', sans-serif;}
+a{-webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease;}
+ul, ol{list-style:none;}
+img{max-width:100%;}
+h1, h2, h3, h4, h5, h6{ font-family: 'Poppins', sans-serif;}
+h1{font-size:42px; font-weight:bold; color:#000; text-align:center; margin-bottom:60px; position:relative; text-transform:uppercase;}
+h1:before{content:""; background:url(../images/underline.png) no-repeat; width:70px; height:8px; position:absolute; bottom:-22px; left:50%; margin-left:-40px;}
+h1 span{color:#fdc236;}
+p{font-size:14px; line-height:24px; color:#333;}
+
+/*********************************************
+		Header start
+*********************************************/
+/* Navbar Styling */
+.navbar-nav.ms-auto .nav-link {
+    font-size: 1.0em; /* Matches h6 font size */
+    font-weight: bold; /* Bold like h6 */
+    transition: color 0.3s ease;
+  }
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: orange;
+}
+
+/* Logo and Company Name */
+.navbar-brand span {
+    font-size: 1.0rem;
+}
+
+/* Contact Info */
+.contact-info a {
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: orange;
+}
+
+.header{background:#f7f7f7;}
+..logo { width: 65px; height: 65px; padding: 15px 0 5px 0; display: block; object-fit: contain; }
+.logo-text {
+	font-size: 15px;
+	font-weight: bold;
+    }
+
+.navbar{margin-bottom: 0px;}
+
+/* General Styles */
+body {
+    padding-top: 76px;
+}
+
+.content-wrapper {
+    min-height: calc(100vh - 400px);
+}
+
+/* Banner Carousel */
+.carousel-item {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+#mainCarousel {
+      margin-top: 20px; /* Adjust margin as needed */
+    }
+    .carousel-inner img {
+      width: 100%;
+      height: auto; /* Ensures images scale properly */
+    }
+
+/* Category Cards */
+.category-card {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Portfolio Grid */
+.portfolio-item .card:hover {
+    transform: translateY(-10px); /* Slight hover lift */
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+.portfolio-item .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Zoom effect on hover */
+}
+
+.portfolio-item .card-img-top:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.btn-outline-primary:hover, .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-primary {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #004080;
+    transform: scale(1.05); /* Slight scale effect */
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Services */
+.service-card {
+    border: none;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: #007bff;
+}
+
+/* Contact Form */
+.contact-form {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.portfolio-item .card:hover {
+    transform: translateY(-10px); /* Slight hover lift */
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+.portfolio-item .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Zoom effect on hover */
+}
+
+.portfolio-item .card-img-top:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.btn-outline-primary:hover, .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-primary {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #004080;
+    transform: scale(1.05); /* Slight scale effect */
+}
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 213px;
+    }
+    
+    .portfolio-item img {
+        height: 200px;
+    }
+}
+
+/* footer css */
+
+footer {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5; /* Improve readability */
+}
+
+footer h5, footer h6 {
+    color: #fff; /* Ensure heading text is white */
+}
+
+.footer a {
+    transition: color 0.3s ease; /* Smooth color change on hover */
+}
+
+.footer a:hover {
+    color: #00d4ff; /* Highlight color on hover */
+}
+
+.footer .text-light {
+    color: #d3d3d3 !important; /* Light gray for non-heading text */
+}
+
+.footer .btn-primary {
+    background-color: #00d4ff;
+    border: none;
+}
+
+.footer .btn-primary:hover {
+    background-color: #00b8e6;
+}
+
+.footer .border-light {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Social Links */
+.social-links a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background: #f8f9fa;
+    transition: all 0.3s;
+}
+
+.social-links a:hover {
+    background: #007bff;
+    color: white !important;
+}
+
